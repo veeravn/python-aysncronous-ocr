@@ -36,7 +36,7 @@ def get_string(img_path):
     return result
 
 if __name__ == '__main__':
-    print ('--- Start recognize text from image ---')
+    print ('--- Start recognizing text from image ---')
     pool = multiprocessing.Pool()
     filename = "" 
     fileList = []
